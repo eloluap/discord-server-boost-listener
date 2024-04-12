@@ -1,5 +1,5 @@
 # discord-server-boost-listener
-Discord Bot which listens for role changes to log who started or stopped boosting your Server and automatically removes a reaction on a reaction roles message from someone who stopped boosting your server.
+Discord Bot which listens for role changes to log (in german) in a discord channel who started or stopped boosting your Server and automatically removes a reaction on a reaction roles message from someone who stopped boosting your server.
 
 Requires a .env file with:
 - BOT_TOKEN=\<Your Bot Token\>
