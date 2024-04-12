@@ -8,7 +8,7 @@ load_dotenv()
 intents = disnake.Intents.default()
 intents.message_content = True
 intents.members = True
-bot = commands.Bot(command_prefix=commands.when_mentioned_or("!!"), intents=intents, test_guilds=[269566282494377984])
+bot = commands.InteractionBot(intents=intents)
 
 @bot.event
 async def on_ready():
