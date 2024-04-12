@@ -1,0 +1,9 @@
+services:
+  booster-bot:
+    build: .
+    environment:
+      - BOT_TOKEN=
+      - WATCH_ROLE_NAME=Server Booster
+      - LOG_CHANNEL_ID=
+      - REACTION_CHANNEL_ID=
+      - REACTION_MESSAGE_ID=
